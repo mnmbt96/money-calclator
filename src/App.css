@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.calc-sysyem {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+label {
+  width: 2rem;
+}
+
+.input-area {
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.3rem;
+  margin-right: 2rem;
+}
+
+.denominations-total {
+  margin: 0.3rem;
+}
+
+span {
+  font-weight: bold;
+}
+
+.total-amount {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+.buttons {
+  text-align: center;
+}
+button {
+  margin: 1rem;
+  border: 1px solid black !important;
+}
+
+button:hover,
+button:active {
+  border: 2px solid #b31f1f !important;
+  color: #b31f1f;
+}
