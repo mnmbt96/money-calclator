@@ -66,13 +66,16 @@ span {
 .buttons {
   text-align: center;
 }
+
 button {
   margin: 1rem;
-  border: 1px solid black !important;
+  border: 1px solid #213547;
+  color: #213547;
+  background-color: #f2f0e9;
 }
 
 button:hover,
 button:active {
-  border: 2px solid #b31f1f !important;
+  border: 2px solid #b31f1f;
   color: #b31f1f;
 }
