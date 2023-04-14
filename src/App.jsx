@@ -8,6 +8,7 @@ const bills = [
   { name: "$20", value: 20 },
   { name: "$10", value: 10 },
   { name: "$5", value: 5 },
+  { name: "$2", value: 2 },
   { name: "$1", value: 1 },
 ];
 
@@ -58,7 +59,7 @@ function App() {
       <div className="img-container">
         <RiMoneyDollarCircleFill className="icon" />
       </div>
-      <h1>Money Calclator</h1>
+      <h1>Money Calculator</h1>
       <main>
         <form>
           <div>
@@ -111,7 +112,7 @@ function App() {
         <span>Grand Total</span> ${total}
       </p>
       <div className="buttons">
-        <button onClick={handleCalculateClick}>Calclate</button>
+        <button onClick={handleCalculateClick}>Calculate</button>
         <button onClick={handleResetClick}>Clear</button>
       </div>
     </div>
