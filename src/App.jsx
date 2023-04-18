@@ -115,6 +115,7 @@ function App() {
         <button onClick={handleCalculateClick}>Calculate</button>
         <button onClick={handleResetClick}>Clear</button>
       </div>
+      <p className="copyright">&copy; 2023 Manami Batai</p>
     </div>
   );
 }

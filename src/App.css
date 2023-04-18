@@ -76,6 +76,11 @@ button {
 
 button:hover,
 button:active {
-  border: 2px solid #b31f1f;
-  color: #b31f1f;
+  background-color: #213547;
+  color: #f2f0e9;
+}
+
+.copyright {
+  margin-top: 2rem;
+  font-weight: 200;
 }
