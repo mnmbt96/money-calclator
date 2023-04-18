@@ -115,6 +115,13 @@ function App() {
         <button onClick={handleCalculateClick}>Calculate</button>
         <button onClick={handleResetClick}>Clear</button>
       </div>
+
+      <p className="link">
+        See code on {""}
+        <a href="https://github.com/mnmbt96/money-calclator" target="_blank">
+          Github
+        </a>
+      </p>
       <p className="copyright">&copy; 2023 Manami Batai</p>
     </div>
   );
