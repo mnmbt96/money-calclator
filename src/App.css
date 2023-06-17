@@ -62,36 +62,7 @@ span {
   margin: 1rem;
   font-size: 1.4rem;
 }
-
-.buttons {
-  text-align: center;
-}
-
-button {
-  margin: 1rem;
-  border: 1px solid #213547;
-  color: #213547;
-  background-color: #f2f0e9;
-}
-
-button:hover,
-button:active {
-  background-color: #213547;
-  color: #f2f0e9;
-}
-
 .copyright {
   font-weight: 300;
-}
-
-.link {
-  margin-top: 2rem;
-  font-weight: 300;
-}
-
-a {
-  font-weight: 300;
-  text-decoration: none;
-  border-bottom: 0.5px solid blue;
-  color: blue;
+  margin-top: 1rem;
 }

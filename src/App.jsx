@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
+import daruma from "./image/daruma.png";
 import "./App.css";
 
 const bills = [
@@ -57,7 +58,8 @@ function App() {
   return (
     <div className="calc-sysyem">
       <div className="img-container">
-        <RiMoneyDollarCircleFill className="icon" />
+        {/* <RiMoneyDollarCircleFill className="icon" /> */}
+        <img className="icon" src={daruma} alt="daruma" />
       </div>
       <h1>Money Calculator</h1>
       <main>
@@ -111,17 +113,14 @@ function App() {
       <p className="total-amount">
         <span>Grand Total</span> ${total}
       </p>
-      <div className="buttons">
-        <button onClick={handleCalculateClick}>Calculate</button>
-        <button onClick={handleResetClick}>Clear</button>
-      </div>
 
-      <p className="link">
-        See code on {""}
-        <a href="https://github.com/mnmbt96/money-calclator" target="_blank">
-          Github
-        </a>
-      </p>
+      <button className="btn-calc" onClick={handleCalculateClick}>
+        Calculate
+      </button>
+      <button className="btn-clear" onClick={handleResetClick}>
+        Clear
+      </button>
+
       <p className="copyright">&copy; 2023 Manami Batai</p>
     </div>
   );
