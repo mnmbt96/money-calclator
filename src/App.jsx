@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { RiMoneyDollarCircleFill } from "react-icons/ri";
 import daruma from "./image/daruma.png";
 import "./App.css";
 
@@ -58,7 +57,6 @@ function App() {
   return (
     <div className="calc-sysyem">
       <div className="img-container">
-        {/* <RiMoneyDollarCircleFill className="icon" /> */}
         <img className="icon" src={daruma} alt="daruma" />
       </div>
       <h1>Money Calculator</h1>

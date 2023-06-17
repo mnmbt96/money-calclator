@@ -57,6 +57,40 @@ span {
   font-weight: bold;
 }
 
+.btn-calc {
+  margin: 1rem;
+  border: 1px solid #213547;
+  color: #213547;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.btn-calc:hover,
+.btn-calc:active {
+  text-align: center;
+  background-color: #213547;
+  color: #f2f0e9;
+}
+
+.btn-clear {
+  border: none;
+  border-bottom: 1px solid rgb(174, 0, 0);
+  color: rgb(174, 0, 0);
+  background-color: #f2f0e9;
+  cursor: pointer;
+}
+
+.btn-clear:hover,
+.btn-clear:active {
+  color: rgba(174, 0, 0, 0.601);
+  border-bottom: 1px solid rgba(174, 0, 0, 0.601);
+  background-color: #f2f0e9;
+}
+
 .total-amount {
   text-align: center;
   margin: 1rem;
