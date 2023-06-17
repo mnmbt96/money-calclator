@@ -82,6 +82,7 @@ span {
   color: rgb(174, 0, 0);
   background-color: #f2f0e9;
   cursor: pointer;
+  font-size: 1em;
 }
 
 .btn-clear:hover,
